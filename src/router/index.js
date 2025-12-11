@@ -5,6 +5,7 @@ import About from '../view/About.vue'
 import Kelas from '@/view/Kelas.vue'
 import Jadwal from '@/view/Jadwal.vue'
 import KelasDetail from '@/view/KelasDetail.vue'
+import AboutMe from '@/view/AboutMe.vue'
 
 const routes = [
   {
@@ -36,7 +37,13 @@ const routes = [
     path: '/jadwal',
     name: 'Jadwal',
     component: Jadwal
+  },
+  {
+    path: '/saya',
+    name: 'Saya',
+    component: AboutMe
   }
+
 ]
 
 const router = createRouter({

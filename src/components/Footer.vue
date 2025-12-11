@@ -36,6 +36,11 @@
                 Jadwal
               </router-link>
             </li>
+            <li>
+              <router-link to="/jadwal" class="text-white-400">
+                Saya
+              </router-link>
+            </li>
           </ul>
         </div>
         <div>

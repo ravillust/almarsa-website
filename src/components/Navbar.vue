@@ -28,6 +28,10 @@
             <Mail class="w-4 h-4 mr-2 text-gray-600" />
             <span>Contact</span>
           </router-link>
+          <router-link to="/saya" class="flex items-center px-3 py-2 text-gray-700 hover:text-[#2B7A9B] transition-colors">
+            <Mail class="w-4 h-4 mr-2 text-gray-600" />
+            <span>Saya</span>
+          </router-link>
         </div>
 
         <!-- Mobile/Tablet Menu Button -->
